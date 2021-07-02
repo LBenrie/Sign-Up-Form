@@ -1,0 +1,224 @@
+body {
+    background-color: rgb(237, 236, 236);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-right: 20px;   
+}
+
+.acc {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.acc-B {
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+    padding: 0;
+    margin: 0;
+}
+
+.acc-A {
+    font-size: 14px;
+    color: rgb(0, 127, 225);
+    text-decoration-line: none;
+    margin-top: 4px;
+}
+
+.acc-A:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    background-color: rgb(7, 114, 255);
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.sign:hover{
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-A {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.A-B {
+    color: rgb(107, 107, 107);
+    font-size: 22px;
+    margin: 5px;
+}
+
+.A-A {
+    margin: 5px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(187, 187, 187);
+    width: 400px;
+    height: fit-content;
+    margin-top: 15px;
+}
+
+h1 {
+    color: rgb(49, 49, 49);
+    font-size: 25px;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.B-A {
+    font-size: 17px;
+    color: rgb(138, 138, 138);
+    margin: 5px;
+}
+
+.B-AB {
+    color: rgb(7, 155, 255);
+    text-decoration-line: none;
+}
+
+.email, .phone, .pass {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+    margin: 10px;
+}
+
+label {
+    color: rgb(49, 49, 49);
+    margin: 10px 0 10px 0;
+    font-size: 19px;
+}
+
+input[type=text]{
+    width: 320px;
+    height: 24px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 3px;
+}
+
+samp {
+    color: rgb(90, 90, 90);
+    font-size: 14px;
+}
+
+span {
+    color: rgb(107, 107, 107);
+    font-size: 10px;
+}
+
+.creat {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 324px;
+    height: 48px;
+    background-color: rgb(7, 114, 255);
+    color: rgb(221, 221, 221);
+    font-size: 19px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.creat:hover {
+    cursor: pointer;
+    background-color: rgb(44, 133, 248) ;
+}
+
+.B-B {
+    color: rgb(155, 155, 155);
+    font-size: 14px;
+    font-style: italic;
+}
+
+.B-BA {
+    text-decoration-line: none;
+    color: rgb(7, 114, 255);
+}
+
+.B-BA:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.B-C {
+    color: rgb(155, 155, 155);
+    font-size: 10px;
+}
+
+.foot {
+    width: 100%;
+    background-color: rgb(204, 203, 203);
+}
+
+.other {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+    margin-top: 25px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px 0px 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: fit-content;
+    padding: 50px 0 50px 10px;
+}
